@@ -1,0 +1,56 @@
+@import "style.css";
+@import "fonts.css";
+
+/* POST */
+main {
+    background-image: url("/deneme1/img/bg-3.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lemonada', cursive; 
+    font-weight: bold;
+}
+.post {
+    background-color: rgb(255, 255, 255);
+    
+}
+.post-article-bg {
+    background-color: rgb(255, 255, 255);
+}
+.post-date > h6 {
+    float: left;
+    color: gray;
+    font-weight: bold;
+}
+.post-info-ul-svg {
+    height: 15px;
+    margin-right: 5px;
+}
+#post-info {
+    border-left: 2px solid gray;
+}
+#post-info > li {
+    list-style-type: none;
+}
+#post-info > li > a {
+    transition: 1s;
+    color: gray;
+}
+#post-info > li > a:hover {
+    transition: 1s;
+    color: black;
+}
+
+.other-posts{
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+}
+
+.other-posts-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: chartreuse;
+    background-image: url("/deneme1/img/1.jpg");
+    background-size: cover;
+}

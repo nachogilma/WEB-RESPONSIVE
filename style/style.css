@@ -1,0 +1,349 @@
+@import "fonts.css";
+
+/* HEADER */
+
+header {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+}
+nav {
+    font-family: 'Sriracha', cursive !important;
+    font-weight: bold;
+}
+.navbar {
+    font-size: 20px;
+}
+.navbar > a {
+    font-size: 30px;
+    color: #F04D61 !important;
+}
+.nav-link {
+    border-bottom: 3px solid transparent;
+    transition: 1s;
+    margin-left: 15px;
+    color: #F04D61 !important;
+}
+.nav-link:hover {
+    border-color: #F04D61;
+    text-decoration: underline;
+}
+.navbar-toggler{
+    background-color: #5a5a5a !important;
+}
+
+.dropdown-menu.show  {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+    background-color: #fff;
+}
+.dropdown-menu > a {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+    color: #5a5a5a !important;
+}
+.dropdown-menu > a:hover {
+    color: black !important;
+
+}
+
+/* MAİN */ 
+
+.bg-light {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.team {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team > img {
+    padding-top: 30px;
+    width: 200px;
+}
+@media (max-width: 768px) {
+    .team > img {
+        width: 150px;
+    }
+  }
+
+
+#intro-bg {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+    background-size: cover;
+}
+.jumbotron1 {  
+    color: rgb(255, 255, 255);
+    border: 1px solid #F04D61(255, 0, 0);
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+    background-color: #000000 !important;  
+    border-radius: 10%;
+    
+}
+
+.jumbotron {
+    background: none !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.city-card {
+    border: 5px solid rgb(19, 17, 17) !important;
+}
+
+.quad-card {
+    background-color: #F04D61;
+}
+
+.circle-card{   
+    background-color: #F04D61;
+}
+.circle-card > img {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/Local\ de\ la\ hamburgueseria.jpg);
+    opacity: 1;
+    transition: 1s;
+}
+.circle-card > img:hover{
+    background-image: url(../img/Local\ de\ la\ hamburgueseria.jpg);
+    transition: 1s;
+    opacity: 0.7;
+}
+
+.aaa {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .aaa video {
+    position: absolute;
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .aaa .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .aaa .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4d4c4c;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  .overlay2 {
+    opacity: 0.3 !important;
+    background-color: rgb(255, 255, 255) !important;
+  }
+
+  .contact-header-input{
+      height: 50px !important;
+      border-bottom-right-radius: 50px !important;
+      border-top-right-radius: 50px !important;
+  }
+  .contact-header-button {
+      border-top-left-radius: 50px !important;
+      border-bottom-left-radius: 50px !important;
+  }
+
+/* contact form */
+
+#contact-form {
+    background-image: url(../img/FONDO\ PAGINA.JPG);   
+    background-color: #F04D61;
+}
+.contact-form{
+    width: 95% !important;
+    border: 2px solid lightgray;
+    background-image: url(../img/FONDO\ PAGINA.JPG);   
+    background-color: #fff;
+}
+.contact-area{
+    height: 350px !important;
+}
+.contact-col > h1 , p {
+    text-align: center;
+}
+#contact-button {
+    border: 1px solid #F04D61;
+    color: #F04D61;
+}   
+#contact-button:hover {
+    background-color: #F04D61;
+    color: white;
+}
+/* FOOTER */
+
+.py-5 {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+}
+
+#map {
+    border: 1px solid lightgray;
+}
+.map-bg{
+    background-image: url(../img/FONDO\ PAGINA.JPG);      
+    background-color: #F04D61;
+}
+#map-iframe {
+    border: 5px solid white !important;
+}
+#adress {
+    background-image: url(../img/FONDO\ PAGINA.JPG);   
+    color: white;
+}
+.footer-copyright {
+    background-image: url(../img/FONDO\ PAGINA.JPG);      
+    background-color: rgb(231, 230, 230);
+    color: #F04D61;
+}
+.footer-copyright > a {
+    color: #F04D61;
+}
+.footer-copyright > a:hover {
+    color: blue;
+}
+
+.footer-bg{
+    background-image: url(../img/FONDO\ PAGINA.JPG);   
+    background-color: #F04D61;
+}
+.footer-tittle {
+    color: #fff;
+}
+.footer-subtitle > li {
+    margin-top: 15px;
+}
+.footer-subtitle > li > a {
+    color: white;
+    text-decoration: none;
+}
+.footer-subtitle > li > a:hover {
+    color: #000;
+}
+
+/* Float Shadow */
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-float-shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 50px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    /* W3C */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+  }
+  .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+    /* move the element up by 5px */
+  }
+  .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(25px);
+    transform: translateY(25px);
+    /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+  }
+
+
+
+
+
+/* POST */
+ main {
+    background-image: url("../img/FONDO\ PAGINA.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.post {
+    background-color: rgb(255, 255, 255);
+}
+.post-article-bg {
+    background-color: rgb(255, 255, 255);
+}
+.post-date > h6 {
+    float: left;
+    color: gray;
+    font-weight: bold;
+}
+.post-info-ul-svg {
+    height: 15px;
+    margin-right: 5px;
+}
+#post-info {
+    border-left: 2px solid gray;
+}
+#post-info > li {
+    list-style-type: none;
+}
+#post-info > li > a {
+    transition: 1s;
+    color: gray;
+}
+#post-info > li > a:hover {
+    transition: 1s;
+    color: black;
+}
+
+.other-posts{
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+}
+
+.other-posts-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: chartreuse;
+    background-image: url("1.jpg");
+    background-size: cover;
+} 
